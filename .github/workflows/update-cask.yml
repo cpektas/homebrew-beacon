@@ -12,7 +12,7 @@ jobs:
   update:
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Read latest Beacon release
         env:
           GH_TOKEN: ${{ github.token }}
