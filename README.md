@@ -15,3 +15,7 @@ brew upgrade --cask beacon
 ```
 
 Beacon requires macOS 14 or later.
+
+The tap checks Beacon's latest public release daily and updates the cask from
+the release DMG's measured SHA-256, so shipping the app does not create a
+second manual release step.
