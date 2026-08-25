@@ -7,7 +7,7 @@ cask "beacon" do
   desc "See and return to Claude Code and Codex sessions from one calm corner"
   homepage "https://cpektas.github.io/beacon/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Beacon.app"
 
