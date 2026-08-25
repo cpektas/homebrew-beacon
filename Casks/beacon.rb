@@ -1,6 +1,6 @@
 cask "beacon" do
-  version "0.12.3"
-  sha256 "5ce7a60600832105ea7b2851c73cadf4613a8a664141a3010a258882de5b8bdc"
+  version "0.12.4"
+  sha256 "cd12b80a07531bafd57c2410a54b0942b5d2782019dfbcdc79bd0f9659a298cd"
 
   url "https://github.com/cpektas/beacon/releases/download/v#{version}/Beacon-#{version}.dmg"
   name "Beacon"
