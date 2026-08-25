@@ -12,8 +12,8 @@ cask "beacon" do
   app "Beacon.app"
 
   zap trash: [
+    "~/.claude/beacon",
     "~/Library/LaunchAgents/com.cempektas.beacon.plist",
     "~/Library/Preferences/com.cempektas.beacon.plist",
-    "~/.claude/beacon",
   ]
 end
